@@ -1,9 +1,4 @@
 import streamlit as st
-from PyPDF2 import PdfReader
-from transformers import pipeline
-
-# Load the summarization pipeline
-@st.cache_resource
 def load_summarizer():
     return pipeline("summarization", model="facebook/bart-large-cnn")
 
