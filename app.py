@@ -23,7 +23,7 @@ def extract_text_from_pdf(pdf_file):
     return text
 
 # App interface
-st.title("Research Paper Information Extractor")
+st.title("Research Paper Information Extractor Created by Zakria")
 st.write("Upload a research paper (PDF) to extract and summarize useful information.")
 
 uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
