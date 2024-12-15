@@ -37,7 +37,7 @@ if uploaded_file is not None:
             if summarizer:
                 # Summarize text
                 summary = summarizer(
-                    paper_text[:1000000],  # Limit input text to the model's capacity
+                    paper_text[:10000],  # Limit input text to the model's capacity
                     max_length=500,
                     min_length=50,
                     do_sample=False
