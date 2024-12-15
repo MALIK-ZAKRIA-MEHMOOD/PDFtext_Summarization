@@ -1,6 +1,7 @@
-streamlit
-PyPDF2
-transformers
-torch
 sentencepiece
+streamlit==1.16.0
+PyPDF2==3.0.1
+transformers==4.33.0
+torch==2.0.1
+
 
