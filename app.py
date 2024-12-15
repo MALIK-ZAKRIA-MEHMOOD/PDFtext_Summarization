@@ -1,6 +1,4 @@
 import streamlit as st
-from transformers import pipeline
-import PyPDF2
 import os
 
 # Load the summarizer pipeline
